@@ -1,0 +1,155 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", sans-serif;
+    -fx-font-size: 13px;
+}
+
+.app-root {
+    -fx-background-color: linear-gradient(to bottom right, #f2f7fc, #f7f9fc);
+}
+
+.header {
+    -fx-padding: 5 0 2 0;
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #152d4a;
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #66778c;
+}
+
+.stats-row {
+    -fx-alignment: center;
+}
+
+.stat-card {
+    -fx-background-color: white;
+    -fx-background-radius: 15px;
+    -fx-border-color: #e3eaf2;
+    -fx-border-radius: 15px;
+    -fx-padding: 17px 20px;
+    -fx-min-height: 88px;
+    -fx-effect: dropshadow(gaussian, rgba(25, 55, 90, 0.06), 12, 0.15, 0, 3);
+}
+
+.stat-title {
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #77869a;
+}
+
+.stat-value {
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #1c3d60;
+}
+
+.filters {
+    -fx-alignment: center-left;
+    -fx-background-color: white;
+    -fx-background-radius: 14px;
+    -fx-border-color: #e3eaf2;
+    -fx-border-radius: 14px;
+    -fx-padding: 13px;
+}
+
+.filter-group {
+    -fx-alignment: center-left;
+    -fx-spacing: 8px;
+}
+
+.field-label {
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #65758a;
+}
+
+.text-field {
+    -fx-background-color: #f8fafc;
+    -fx-background-radius: 8px;
+    -fx-border-color: #d8e2ee;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 10px;
+}
+
+.button {
+    -fx-background-color: #eaf0f7;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #264664;
+    -fx-font-weight: 700;
+    -fx-padding: 9px 12px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #dce8f5;
+}
+
+.button-primary {
+    -fx-background-color: #1f6feb;
+    -fx-text-fill: white;
+}
+
+.button-primary:hover {
+    -fx-background-color: #185ac4;
+}
+
+.result-message {
+    -fx-background-color: #eaf3ff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #d5e7ff;
+    -fx-border-radius: 10px;
+    -fx-text-fill: #214b7a;
+    -fx-padding: 11px 14px;
+    -fx-font-weight: 600;
+}
+
+.weather-table {
+    -fx-background-color: white;
+    -fx-background-radius: 13px;
+    -fx-border-color: #e3eaf2;
+    -fx-border-radius: 13px;
+    -fx-padding: 5px;
+}
+
+.weather-table .column-header-background {
+    -fx-background-color: #eef3f9;
+    -fx-background-radius: 9px 9px 0 0;
+}
+
+.weather-table .column-header,
+.weather-table .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38px;
+    -fx-border-color: transparent transparent #e0e8f1 transparent;
+}
+
+.weather-table .column-header .label {
+    -fx-text-fill: #4e6178;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+}
+
+.weather-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #edf1f6 transparent;
+    -fx-cell-size: 37px;
+}
+
+.weather-table .table-row-cell:filled:hover {
+    -fx-background-color: #f4f8fd;
+}
+
+.weather-table .table-row-cell:filled:selected {
+    -fx-background-color: #e4efff;
+}
+
+.weather-table .table-cell {
+    -fx-text-fill: #2d4055;
+    -fx-padding: 7px 11px;
+    -fx-border-color: transparent;
+}
